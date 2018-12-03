@@ -1,0 +1,134 @@
+
+
+.wrapperRegistration {
+	margin-top: 80px;
+}
+ 
+
+.inner  {
+	padding: 50px;
+	padding-top: 30px;
+	background: #fff; 
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: black;
+	opacity: .9;
+	border-color: #4CAF50;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.form-wrapper {
+	margin: 5px;
+}
+.form-group {
+	margin-left: 5px;
+}
+
+
+.form-wrapper input {
+	width: 98%;
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: none;
+    background: black;
+    border-bottom: 2px green solid;
+    color: white;
+}
+
+.form-wrapper input:required:focus {
+	background: green;
+}
+
+
+.form-wrapper select  {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	padding-left: 20px;
+	border: none;
+	background: black;
+    border-bottom: 2px green solid;
+    color: white; 
+}
+
+.form-wrapper select:required:focus {
+	background: green;
+}
+	
+.form-wrapper select option[value=""][disabled] {
+    display: none; 
+    }
+
+    
+
+.form-group input {
+	width: 49%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: none;
+    background: black;
+    border-bottom: 2px green solid;
+    color: white; 
+}
+
+.form-group input:required:focus {
+	background: green;
+}
+
+.form-control {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+
+.inner form h3  {
+	font-size: 30px;
+	padding: 0;
+	margin: 10px;
+	text-align: center; 
+}
+
+
+
+#registerButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 99%;
+    font-size: 20px;
+}
+
+#registerButton:hover {
+	background-color: green;
+}
+
+#registerStatus  {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 0;
+	color: green;
+	font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	.inner {
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+}
