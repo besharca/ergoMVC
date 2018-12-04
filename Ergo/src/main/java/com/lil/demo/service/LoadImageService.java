@@ -33,6 +33,11 @@ public class LoadImageService {
 	public ImageBase64Model findImage(int id, String user) {
 		ImageModel img = imgRepo.findById(id).orElse(null);
 		
+		if(img==null) {
+			System.out.println("image is null");
+		}else {
+			System.out.println(img.getPicture());
+		}
 		
 		if(img!=null && user.equals(img.getUserName())) {
 			ImageBase64Model img64 =  new ImageBase64Model();
