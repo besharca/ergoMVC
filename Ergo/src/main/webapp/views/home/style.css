@@ -247,7 +247,7 @@ a.goBack {
 div.img img { 
 	min-height: 300px;
 	max-height: 500px;
-	
+	max-width: 100%;
 }
 
 div.images div{
