@@ -12,7 +12,7 @@ public class ImageModel {
 	@GeneratedValue
 	private int id;
 	private String fileName;
-	@Column(columnDefinition="MEDIUMBLOB")
+	@Column(columnDefinition="bytea")
 	private byte[] picture;
 	private String userName;
 	
